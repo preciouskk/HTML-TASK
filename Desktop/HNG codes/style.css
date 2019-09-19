@@ -1,0 +1,57 @@
+/* my css */
+body {
+	background-color: #ffffff;
+	font-size: 1.1em;
+}
+
+header {
+	text-align: center;
+	line-height: 2px;
+	padding: 20px;
+}
+
+h1 {
+	color: purple;
+}
+
+h3 {
+	line-height: 0.9;
+	border-bottom: 1.5px solid #000;
+	margin: 0;
+}
+
+/*Nav container */
+nav {
+	overflow: hidden;
+	background-color: rgb(180 180 180);
+	border: 1px solid #e7e7e7;
+}
+
+/* Nav links */
+nav a {
+	float: left;
+	display: block;
+	color: blue;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+}
+
+/* links -change color on hover */
+nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a gray light border to all a, except the last-child */
+nav a {
+	border-right: 1px solid #bbb;
+}
+ nav a:last-child {
+ 	border-right: none;
+ }
+
+td {
+	padding: 10px;
+	text-align: left;
+}
